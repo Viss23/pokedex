@@ -1,0 +1,61 @@
+.element {
+  width: 25%;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid grey
+}
+
+.element:hover {
+  cursor: pointer;
+}
+
+.pokedexTable {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-img {
+  object-fit: cover;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.pokemon-name {
+  text-align: center;
+  font-weight: 600;
+}
+
+.pokemon-types {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pokemon-type {
+  width: max-content;
+  border: 1px solid grey;
+  border-radius: 20%;
+  padding: 0px 8px 5px;
+}
+
+.loadMore {
+  width: 100%;
+  color: #fff;
+  background-color: #008CFF;
+  font-size: 20px;
+  height: 48px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.loadMore:hover {
+  cursor: pointer;
+}
+
+.loadMore:disabled {
+  background-color: grey;
+  cursor: default;
+}

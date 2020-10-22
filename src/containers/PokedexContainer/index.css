@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+.pokedex {
+  width: 900px;
+  margin: auto;
+}
+
+.pokedex-main {
+  display: flex;
+}

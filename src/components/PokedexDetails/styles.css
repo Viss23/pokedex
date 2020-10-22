@@ -1,0 +1,41 @@
+.pokedex-details {
+  position: fixed;
+  top: 200px;
+  width: 250px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.pokemon-details-img {
+  object-fit: cover;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.pokemon-details-name {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.table-name {
+  text-align: center;
+  width: 70%;
+}
+
+.table-amount {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
